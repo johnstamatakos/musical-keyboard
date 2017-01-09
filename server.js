@@ -33,11 +33,13 @@ var mapKeyToSound = function(i) {
     case 'space':
       player.play('wav/snare.wav');
       break;
-    case 'z':
     case 'x':
     case 'n':
     case 'm':
       player.play('wav/phazed.wav');
+      break;
+    case 'z':
+      player.play('wav/air-horn.mp3');
       break;
     default: 
       player.play('wav/tick.wav');
