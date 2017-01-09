@@ -5,8 +5,9 @@
 - Start typing
 
 ##Commands
-`a,e,i,o,u` : kick drum
-`space` : snare
-`z,x,n,m` : phazer
-`everything else` : tick
+##### `a,e,i,o,u` : kick drum
+##### `space` : snare
+##### `x,n,m` : phazer
+##### `z` : airhorn
+##### `everything else` : tick
 
