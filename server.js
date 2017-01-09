@@ -12,7 +12,7 @@ process.stdin.on('keypress', function (ch, key) {
   } else if (!key || !key.name) {
     console.log('undefined');
   } else {
-    console.log('got "keypress"', key.name);
+    console.log(key.name);
     mapKeyToSound(key.name);
   }
 });
